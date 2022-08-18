@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[
+################################################################################################################################################
+Detected SHAFT Engine Version: "SHAFT Engine v6.3.20220808"
+################################################################################################################################################]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Loaded OpenCV "opencv_java451". @18-08-2022 22:42:46.0380 PM]]>
+    </line>
+    <line>
+      <![CDATA[
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:"com.shaft.tools.io.LogsHelper.setupActivities"
+################################################################################################################################################]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initializing Project Structure... @18-08-2022 22:42:46.0859 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initializing Allure Reporting Environment... @18-08-2022 22:42:46.0860 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initializing Extent Reporting Environment... @18-08-2022 22:42:47.0167 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initializing Important Links... @18-08-2022 22:42:48.0110 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initializing Custom Properties... @18-08-2022 22:42:48.0140 PM]]>
+    </line>
+    <line>
+      <![CDATA[
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:"com.paymob.gui.tests.MainPageTest.setUp"
+################################################################################################################################################]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @18-08-2022 22:42:48.0255 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @18-08-2022 22:42:48.0255 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Attempting to run locally on: "Mac-64 | Safari". @18-08-2022 22:42:48.0292 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully Opened Safari. @18-08-2022 22:42:51.0106 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initial window size: (800, 600) @18-08-2022 22:42:51.0135 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Window size after SWD Maximize: (1800, 1067) @18-08-2022 22:42:51.0174 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220818-224244", Target File: "/1660855371851_setUp.gif"". @18-08-2022 22:42:52.0265 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Maximize window "New screen size is now: (1800, 1067)". @18-08-2022 22:42:52.0610 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Target URL: "https://acceptstagingtest.paymobsolutions.com/portal2/en/login" @18-08-2022 22:42:52.0946 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initial URL: "" @18-08-2022 22:42:52.0975 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Navigate to url "https://acceptstagingtest.paymobsolutions.com/portal2/en/login". @18-08-2022 22:43:02.0792 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - setUp" @18-08-2022 22:43:02.0822 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: setUp" @18-08-2022 22:43:02.0829 PM]]>
+    </line>
+    <line>
+      <![CDATA[
+################################################################################################################################################
+Starting Execution:"1 out of 1" test cases in the current suite
+Test Method:"com.paymob.gui.tests.MainPageTest.Login"
+Test Description:"Login Paymob Dashboard "
+################################################################################################################################################]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220818-224244", Target File: "/1660855384691_Login.gif"". @18-08-2022 22:43:04.0859 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Type "01008884767". @18-08-2022 22:43:05.0132 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Type "Sultan@160884". @18-08-2022 22:43:07.0493 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Click "Sign in". @18-08-2022 22:43:10.0247 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Get text "Sign in". @18-08-2022 22:43:10.0412 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id="root"]/div[2]/div/div/div[2]/form/fieldset/legend" text contains "Sign in". @18-08-2022 22:43:12.0761 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "Screenshot - 1660855392416_Login_ValidateElementAttribute_passed" @18-08-2022 22:43:12.0819 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - Login" @18-08-2022 22:43:12.0828 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Login" @18-08-2022 22:43:12.0830 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Switch to default content. @18-08-2022 22:43:12.0843 PM]]>
+    </line>
+    <line>
+      <![CDATA[
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:"com.paymob.gui.tests.MainPageTest.tearDown"
+################################################################################################################################################]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "Video Recording - tearDown" @18-08-2022 22:43:16.0784 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Close current window. @18-08-2022 22:43:17.0209 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "Browser Action Test Data - Close current window - Actual Value" @18-08-2022 22:43:17.0217 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: tearDown" @18-08-2022 22:43:17.0218 PM]]>
+    </line>
+    <line>
+      <![CDATA[
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:"com.shaft.tools.io.LogsHelper.teardownActivities"
+################################################################################################################################################]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully Closed All Drivers. @18-08-2022 22:43:17.0282 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Execution log" @18-08-2022 22:43:17.0282 PM]]>
+    </line>
+    <line>
+      <![CDATA[
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: "SHAFT Engine v6.3.20220808"
+SHAFT Engine is licensed under the MIT License: [https://github.com/ShaftHQ/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Execution log: 20220818-224317" @18-08-2022 22:43:17.0283 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "allure-results/cucumberReport.html"". @18-08-2022 22:43:17.0284 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "extent-reports/ExtentReports_18-08-2022_22-42-47-0171-PM.html"". @18-08-2022 22:43:17.0862 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "extent-reports/ExtentReports_18-08-2022_22-42-47-0171-PM.html"". @18-08-2022 22:43:17.0864 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "extent-reports/ExtentReports_18-08-2022_22-42-47-0171-PM.html"". @18-08-2022 22:43:17.0865 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] File Action "ReadFromFile" successfully performed. With the following test data "File Path: "/Users/muhammadsultan/IdeaProjects/Paymob Dashboard/extent-reports/ExtentReports_18-08-2022_22-42-47-0171-PM.html"". @18-08-2022 22:43:17.0889 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "HTML - Extent Emailable Execution Report" @18-08-2022 22:43:17.0897 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Attempting to perform the following command locally. Command: "sh generate_allure_report.sh" @18-08-2022 22:43:17.0897 PM]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-18T22:42:48 EET" name="Suite" finished-at="2022-08-18T22:43:17 EET" duration-ms="29016">
+    <groups>
+    </groups>
+    <test started-at="2022-08-18T22:42:48 EET" name="Paymob Dashboard" finished-at="2022-08-18T22:43:17 EET" duration-ms="29016">
+      <class name="com.shaft.tools.io.LogsHelper">
+        <test-method is-config="true" signature="setupActivities(org.testng.ITestContext)[pri:0, instance:com.shaft.tools.io.LogsHelper@3fc05ea2]" started-at="2022-08-18T22:42:46 EET" name="setupActivities" finished-at="2022-08-18T22:42:48 EET" duration-ms="1388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4353230]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[ReportManager] Initializing Project Structure... @18-08-2022 22:42:46.0859 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initializing Allure Reporting Environment... @18-08-2022 22:42:46.0860 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initializing Extent Reporting Environment... @18-08-2022 22:42:47.0167 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initializing Important Links... @18-08-2022 22:42:48.0110 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initializing Custom Properties... @18-08-2022 22:42:48.0140 PM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupActivities -->
+        <test-method is-config="true" signature="teardownActivities()[pri:0, instance:com.shaft.tools.io.LogsHelper@3fc05ea2]" started-at="2022-08-18T22:43:17 EET" name="teardownActivities" finished-at="2022-08-18T22:43:17 EET" duration-ms="625" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[ReportManager] Successfully Closed All Drivers. @18-08-2022 22:43:17.0282 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Execution log" @18-08-2022 22:43:17.0282 PM]]>
+            </line>
+            <line>
+              <![CDATA[
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: "SHAFT Engine v6.3.20220808"
+SHAFT Engine is licensed under the MIT License: [https://github.com/ShaftHQ/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Execution log: 20220818-224317" @18-08-2022 22:43:17.0283 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "allure-results/cucumberReport.html"". @18-08-2022 22:43:17.0284 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "extent-reports/ExtentReports_18-08-2022_22-42-47-0171-PM.html"". @18-08-2022 22:43:17.0862 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "extent-reports/ExtentReports_18-08-2022_22-42-47-0171-PM.html"". @18-08-2022 22:43:17.0864 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "extent-reports/ExtentReports_18-08-2022_22-42-47-0171-PM.html"". @18-08-2022 22:43:17.0865 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "ReadFromFile" successfully performed. With the following test data "File Path: "/Users/muhammadsultan/IdeaProjects/Paymob Dashboard/extent-reports/ExtentReports_18-08-2022_22-42-47-0171-PM.html"". @18-08-2022 22:43:17.0889 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "HTML - Extent Emailable Execution Report" @18-08-2022 22:43:17.0897 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Attempting to perform the following command locally. Command: "sh generate_allure_report.sh" @18-08-2022 22:43:17.0897 PM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardownActivities -->
+      </class> <!-- com.shaft.tools.io.LogsHelper -->
+      <class name="com.paymob.gui.tests.MainPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.paymob.gui.tests.MainPageTest@b25b095]" started-at="2022-08-18T22:42:48 EET" name="setUp" finished-at="2022-08-18T22:43:02 EET" duration-ms="14576" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @18-08-2022 22:42:48.0255 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @18-08-2022 22:42:48.0255 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Attempting to run locally on: "Mac-64 | Safari". @18-08-2022 22:42:48.0292 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully Opened Safari. @18-08-2022 22:42:51.0106 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initial window size: (800, 600) @18-08-2022 22:42:51.0135 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Window size after SWD Maximize: (1800, 1067) @18-08-2022 22:42:51.0174 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220818-224244", Target File: "/1660855371851_setUp.gif"". @18-08-2022 22:42:52.0265 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Maximize window "New screen size is now: (1800, 1067)". @18-08-2022 22:42:52.0610 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Target URL: "https://acceptstagingtest.paymobsolutions.com/portal2/en/login" @18-08-2022 22:42:52.0946 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initial URL: "" @18-08-2022 22:42:52.0975 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Navigate to url "https://acceptstagingtest.paymobsolutions.com/portal2/en/login". @18-08-2022 22:43:02.0792 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - setUp" @18-08-2022 22:43:02.0822 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: setUp" @18-08-2022 22:43:02.0829 PM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login()[pri:0, instance:com.paymob.gui.tests.MainPageTest@b25b095]" started-at="2022-08-18T22:43:02 EET" name="Login" description="Login Paymob Dashboard " finished-at="2022-08-18T22:43:12 EET" duration-ms="9930" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+################################################################################################################################################
+Starting Execution:"1 out of 1" test cases in the current suite
+Test Method:"com.paymob.gui.tests.MainPageTest.Login"
+Test Description:"Login Paymob Dashboard "
+################################################################################################################################################]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220818-224244", Target File: "/1660855384691_Login.gif"". @18-08-2022 22:43:04.0859 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Type "01008884767". @18-08-2022 22:43:05.0132 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Type "Sultan@160884". @18-08-2022 22:43:07.0493 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Click "Sign in". @18-08-2022 22:43:10.0247 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Get text "Sign in". @18-08-2022 22:43:10.0412 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id="root"]/div[2]/div/div/div[2]/form/fieldset/legend" text contains "Sign in". @18-08-2022 22:43:12.0761 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Screenshot - 1660855392416_Login_ValidateElementAttribute_passed" @18-08-2022 22:43:12.0819 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - Login" @18-08-2022 22:43:12.0828 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Login" @18-08-2022 22:43:12.0830 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Switch to default content. @18-08-2022 22:43:12.0843 PM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.paymob.gui.tests.MainPageTest@b25b095]" started-at="2022-08-18T22:43:12 EET" name="tearDown" finished-at="2022-08-18T22:43:17 EET" duration-ms="4246" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Video Recording - tearDown" @18-08-2022 22:43:16.0784 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Close current window. @18-08-2022 22:43:17.0209 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Browser Action Test Data - Close current window - Actual Value" @18-08-2022 22:43:17.0217 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: tearDown" @18-08-2022 22:43:17.0218 PM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paymob.gui.tests.MainPageTest -->
+    </test> <!-- Paymob Dashboard -->
+  </suite> <!-- Suite -->
+</testng-results>
