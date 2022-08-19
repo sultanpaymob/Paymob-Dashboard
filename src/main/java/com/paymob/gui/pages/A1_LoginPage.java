@@ -7,7 +7,9 @@ public class A1_LoginPage {
 
     public By UserName = By.id("user-name");
     public By Password = By.id("password");
-    public By SignIn_Btn = By.xpath("//button[@class='primaryBtn' and @type='submit']");
+    public By Sign_In_Btn = By.xpath("//button[@class='primaryBtn' and @type='submit']");
+    public By Forget_Password_Btn = By.xpath("//a[@class='forgetPWLink']");
+    public By Sign_Up_Btn = By.xpath(" //a[normalize-space()='Sign Up']");
     public By Paymob_Logo = By.xpath("//img[@alt='Paymob logo consists of paymob word']");
 
     private SHAFT.GUI.WebDriver driver;
@@ -16,9 +18,17 @@ public class A1_LoginPage {
         this.driver = driver;
     }
 
-    public void SignIn() {
+    public void Paymob_Sign_In() {
+        driver.element().type(UserName, "Ehabnaga");
+        driver.element().type(Password, "Ehab@1212");
+        driver.element().click(Sign_In_Btn);
+    }
+    public void Paymob_Forget_Password(){
+        driver.element().click(Forget_Password_Btn);
         driver.element().type(UserName, "01008884767");
-        driver.element().type(Password, "Sultan@160884");
-        driver.element().click(SignIn_Btn);
+
+    }
+    public void Paymob_Sign_Up(){
+        driver.element().click(Sign_Up_Btn);
     }
 }
