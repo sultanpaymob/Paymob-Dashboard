@@ -16,8 +16,8 @@ public class MainPageTest {
     @BeforeClass
     public void setUp() {
         driver = new SHAFT.GUI.WebDriver();
-        driver.browser().navigateToURL("https://acceptstagingtest.paymobsolutions.com/portal2/en/login");
-//        driver.browser().navigateToURL("https://accept.paymob.com/portal2/en/login");
+//        driver.browser().navigateToURL("https://acceptstagingtest.paymobsolutions.com/portal2/en/login");
+        driver.browser().navigateToURL("https://accept.paymob.com/portal2/en/login");
         LoginPage_Obj = new A1_LoginPage(driver);
         MainPage_Obj = new D4_MainPage(driver);
     }
