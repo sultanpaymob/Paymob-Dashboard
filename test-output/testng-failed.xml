@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="1" name="paymob-dashboard(failed)">
     <classes>
-      <class name="com.paymob.gui.tests.MainPageTest">
+      <class name="com.paymob.gui.tests.com.paymob.gui.test.production.MainPageTest">
         <methods>
           <include name="Preview_Main_Page_Functions"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.paymob.gui.tests.MainPageTest -->
+      </class> <!-- com.paymob.gui.tests.com.paymob.gui.test.production.MainPageTest -->
     </classes>
   </test> <!-- paymob-dashboard(failed) -->
 </suite> <!-- Failed suite [Suite] -->
