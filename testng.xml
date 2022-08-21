@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/muhammadsultan/IdeaProjects/Paymob-Accept_Dashboard/src/test">
+        <classes>
+            <class name="com.paymob.gui.test.production.ForgetPasswordTest">
+            <methods>
+                <include name="Select_Forget_Password"/>
+                <include name="Request_OTP_Password"/>
+            </methods>
+            </class>
+            <class name="com.paymob.gui.test.production.MainPageTest">
+                <methods>
+                    <include name="Login"/>
+                    <include name="Preview_Main_Page_Functions"/>
+                </methods>
+            </class>
+            <class name="com.paymob.gui.test.production.SignUpTest">
+                <methods>
+                    <include name="Paymob_Sign_Up"/>
+                </methods>
+            </class>
+            <class name="com.paymob.gui.tests.staging.ForgetPasswordTest">
+                <methods>
+                    <include name="Select_Forget_Password"/>
+                    <include name="Request_OTP_Password"/>
+                </methods>
+            </class>
+            <class name="com.paymob.gui.tests.staging.MainPageTest">
+                <methods>
+                    <include name="Login"/>
+                    <include name="Preview_Main_Page_Functions"/>
+                </methods>
+            </class>
+            <class name="com.paymob.gui.tests.staging.SignUpTest">
+                <methods>
+                    <include name="Paymob_Sign_Up"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
