@@ -35,5 +35,5 @@ public class ForgetPasswordTest {
         // Validations
         String pageLabel =  driver.element().getText(By.xpath("//p[@class='sub-title']"));
         System.out.println("Page Label is " +"" +pageLabel);
-        driver.assertThat().element(By.xpath("//p[@class='sub-title']")).text().contains("Paymob account").perform();}
+        driver.assertThat().element(By.xpath("//p[@class='sub-title']")).text().contains("reset your password").perform();}
 }

@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="com.shaft.tools.listeners.InvokedMethodListener"/>
   </listeners>
-  <test thread-count="1" name="paymob-dashboard(failed)">
+  <test thread-count="1" name="Paymob-Accept_Dashboard(failed)">
     <classes>
-      <class name="com.paymob.gui.tests.com.paymob.gui.test.production.MainPageTest">
+      <class name="com.paymob.gui.test.production.ForgetPasswordTest">
         <methods>
-          <include name="Preview_Main_Page_Functions"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="Request_OTP_Password"/>
         </methods>
-      </class> <!-- com.paymob.gui.tests.com.paymob.gui.test.production.MainPageTest -->
+      </class> <!-- com.paymob.gui.test.production.ForgetPasswordTest -->
     </classes>
-  </test> <!-- paymob-dashboard(failed) -->
+  </test> <!-- Paymob-Accept_Dashboard(failed) -->
 </suite> <!-- Failed suite [Suite] -->
