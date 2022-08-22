@@ -6,18 +6,13 @@
   </listeners>
   <test thread-count="1" name="Paymob-Accept_Dashboard(failed)">
     <classes>
-      <class name="com.shaft.tools.io.LogsHelper">
+      <class name="com.paymob.gui.test.production.CreateInvoiceTest">
         <methods>
-          <include name="teardownActivities"/>
-        </methods>
-      </class> <!-- com.shaft.tools.io.LogsHelper -->
-      <class name="com.paymob.gui.test.production.MainPageTest">
-        <methods>
-          <include name="Preview_Main_Page_Functions"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Create_Invoice"/>
         </methods>
-      </class> <!-- com.paymob.gui.test.production.MainPageTest -->
+      </class> <!-- com.paymob.gui.test.production.CreateInvoiceTest -->
     </classes>
   </test> <!-- Paymob-Accept_Dashboard(failed) -->
 </suite> <!-- Failed suite [Suite] -->

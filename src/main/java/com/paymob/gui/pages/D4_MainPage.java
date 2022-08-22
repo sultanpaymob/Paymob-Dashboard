@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class D4_MainPage {
 
     public By Paymob_Logo = By.xpath("//img[@alt='Accept Logo' and @class='navbar-brand-minimized']");
-    public By Create_Btn = By.xpath("//span[normalize-space()='Create']");
+    public By Create_Btn = By.xpath("/html[1]/body[1]/div[1]/div[2]/header[1]/ul[1]/li[1]/a[1]/i[1]");
     public By Create_Invoice_Btn = By.xpath("//img[@src='/portal2/static/media/Bill.8e80cae4.svg']");
     public By Create_Product_Btn = By.xpath("//img[@src='/portal2/static/media/Product.dcbaf80a.svg']");
     public By View_All_Btn = By.xpath("//a[@class='blockLink']");
@@ -61,5 +61,13 @@ public class D4_MainPage {
         driver.element().click(Terminal_Management_Btn);
         driver.element().click(Terminal_Dev_POS_Btn);
         driver.element().click(Terminal_Branches_Btn);
+    }
+    public void Create_Invoice(){
+        driver.element().click(Create_Btn);
+        driver.element().click(Create_Invoice_Btn);
+    }
+    public void Create_Product(){
+        driver.element().click(Create_Btn);
+        driver.element().click(Create_Product_Btn);
     }
 }
