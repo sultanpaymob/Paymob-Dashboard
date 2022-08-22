@@ -16,7 +16,6 @@ public class MainPageTest {
     @BeforeClass
     public void setUp() {
         driver = new SHAFT.GUI.WebDriver();
-//        driver.browser().navigateToURL("https://acceptstagingtest.paymobsolutions.com/portal2/en/login");
         driver.browser().navigateToURL("https://accept.paymob.com/portal2/en/login");
         LoginPage_Obj = new A1_LoginPage(driver);
         MainPage_Obj = new D4_MainPage(driver);
@@ -24,6 +23,7 @@ public class MainPageTest {
 
     @AfterTest
     public void tearDown(){
+        MainPage_Obj.Paymob_Log_out();
         driver.browser().closeCurrentWindow();
     }
 
@@ -36,6 +36,8 @@ public class MainPageTest {
 
     @Test(description = "Preview Main Page Functions")
     public void Preview_Main_Page_Functions() {
+        String Page_Label = driver.element().getText(By.xpath("//*[@id=\"root\"]/div[2]/div/div/div[2]/span/a"));
+        System.out.println("Page Label is "+""+Page_Label);
         MainPage_Obj.Preview_Main_Page_Functions();
     }
 }

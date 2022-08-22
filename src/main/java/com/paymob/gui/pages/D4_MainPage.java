@@ -29,7 +29,10 @@ public class D4_MainPage {
     public By Terminal_Branches_Btn = By.xpath("//a[normalize-space()='Branches']");
 
 
-    //
+    //Account Area
+    public By Account_Settings_Btn = By.xpath("//i[@class='fa fa-angle-down']");
+    public By Edit_Profile_Btn = By.xpath("//button[normalize-space()='Edit Profile']");
+    public By Log_out_Btn = By.xpath("//button[normalize-space()='Log Out']");
 
     private SHAFT.GUI.WebDriver driver;
 
@@ -37,6 +40,10 @@ public class D4_MainPage {
         this.driver = driver;
     }
 
+    public void Paymob_Log_out(){
+        driver.element().click(Account_Settings_Btn);
+        driver.element().click(Log_out_Btn);
+    }
     public void Preview_Main_Page_Functions() {
         driver.element().click(Home_Btn);
         driver.element().click(Payments_Btn);
