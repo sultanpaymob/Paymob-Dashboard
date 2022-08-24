@@ -1,0 +1,6 @@
+
+################################################################################################################################################
+Starting Execution:	"8 out of 8" test cases in the current suite
+Test Method:		"com.paymob.gui.test.production.D4_Create_Invoice_Test.Create_Kiosk_Invoice"
+Test Description:	"Create Kiosk Invoice"
+###############################################################################################################################################

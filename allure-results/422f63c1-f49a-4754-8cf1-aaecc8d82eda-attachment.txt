@@ -1,0 +1,15 @@
+
+################################################################################################################################################
+Starting Execution:	"1 out of 8" test cases in the current suite
+Test Method:		"com.paymob.gui.test.production.A1_SignUp_Test.Paymob_Sign_Up"
+Test Description:	"Login Paymob Dashboard "
+################################################################################################################################################
+[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220824-122629", Target File: "/1661336826383_Paymob_Sign_Up.gif"". @24-08-2022 12:27:06.0898 PM
+[ReportManager] Click "Sign Up". @24-08-2022 12:27:08.0227 PM
+[ReportManager] Type "01004822119". @24-08-2022 12:27:19.0462 PM
+[ReportManager] Click "Next". @24-08-2022 12:27:22.0375 PM
+[ReportManager] Get text "Create your Paymob account". @24-08-2022 12:27:22.0716 PM
+[ReportManager] Get text "Create your Paymob account". @24-08-2022 12:27:22.0773 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //p[@class='sub-title']" text contains "Paymob account". @24-08-2022 12:27:27.0040 PM
+[ReportManager] Successfully created attachment "Screenshot - 1661336845872_Paymob_Sign_Up_ValidateElementAttribute_passed" @24-08-2022 12:27:27.0148 PM
+[ReportManager] Successfully created attachment "Animated Gif - Paymob_Sign_Up" @24-08-2022 12:27:27.0172 P

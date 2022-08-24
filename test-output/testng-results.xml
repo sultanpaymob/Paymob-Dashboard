@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="8" passed="1" failed="0" skipped="7">
   <reporter-output>
     <line>
       <![CDATA[
@@ -8,7 +8,7 @@ Detected SHAFT Engine Version: "SHAFT Engine v6.3.20220808"
 ################################################################################################################################################]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Loaded OpenCV "opencv_java451". @22-08-2022 18:29:37.0154 PM]]>
+      <![CDATA[[ReportManager] Loaded OpenCV "opencv_java451". @24-08-2022 12:26:31.0680 PM]]>
     </line>
     <line>
       <![CDATA[
@@ -18,412 +18,673 @@ Test Method:"com.shaft.tools.io.LogsHelper.setupActivities"
 ################################################################################################################################################]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Initializing Project Structure... @22-08-2022 18:29:37.0712 PM]]>
+      <![CDATA[[ReportManager] Initializing Project Structure... @24-08-2022 12:26:32.0273 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Initializing Allure Reporting Environment... @22-08-2022 18:29:37.0714 PM]]>
+      <![CDATA[[ReportManager] Initializing Allure Reporting Environment... @24-08-2022 12:26:32.0275 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Initializing Extent Reporting Environment... @22-08-2022 18:29:38.0008 PM]]>
+      <![CDATA[[ReportManager] Initializing Extent Reporting Environment... @24-08-2022 12:26:32.0532 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Initializing Important Links... @22-08-2022 18:29:39.0179 PM]]>
+      <![CDATA[[ReportManager] Initializing Important Links... @24-08-2022 12:26:33.0492 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Initializing Custom Properties... @22-08-2022 18:29:39.0215 PM]]>
+      <![CDATA[[ReportManager] Initializing Custom Properties... @24-08-2022 12:26:33.0527 PM]]>
     </line>
     <line>
       <![CDATA[
 ################################################################################################################################################
 Starting Execution of a Configuration (Setup or Teardown) Method
-Test Method:"com.paymob.gui.test.production.CreateInvoiceTest.setUp"
+Test Method:"com.paymob.gui.test.production.A1_SignUp_Test.setUp"
 ################################################################################################################################################]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @22-08-2022 18:29:39.0359 PM]]>
+      <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @24-08-2022 12:26:33.0641 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @22-08-2022 18:29:39.0360 PM]]>
+      <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @24-08-2022 12:26:33.0641 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Attempting to run locally on: "Mac-64 | GoogleChrome". @22-08-2022 18:29:39.0388 PM]]>
+      <![CDATA[[ReportManager] Attempting to run locally on: "Mac-64 | GoogleChrome". @24-08-2022 12:26:33.0664 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @22-08-2022 18:29:39.0388 PM]]>
+      <![CDATA[[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @24-08-2022 12:26:33.0664 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Successfully Opened Google Chrome. @22-08-2022 18:29:44.0591 PM]]>
+      <![CDATA[[ReportManager] Successfully Opened Google Chrome. @24-08-2022 12:26:37.0779 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Initial window size: (1200, 1023) @22-08-2022 18:29:44.0612 PM]]>
+      <![CDATA[[ReportManager] Initial window size: (1200, 1023) @24-08-2022 12:26:37.0799 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Window size after Toolkit: (1800, 1067) @22-08-2022 18:29:45.0120 PM]]>
+      <![CDATA[[ReportManager] Window size after Toolkit: (1800, 1067) @24-08-2022 12:26:38.0287 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Window size after WebDriver.Manage.Window: (1920, 1067) @22-08-2022 18:29:45.0350 PM]]>
+      <![CDATA[[ReportManager] Window size after WebDriver.Manage.Window: (1920, 1067) @24-08-2022 12:26:38.0519 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Initial Windows Size: 1920x1067 @22-08-2022 18:29:45.0367 PM]]>
+      <![CDATA[[ReportManager] Initial Windows Size: 1920x1067 @24-08-2022 12:26:38.0532 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Current Windows Size after fullScreen: 1800x1126 @22-08-2022 18:29:45.0446 PM]]>
+      <![CDATA[[ReportManager] Current Windows Size after fullScreen: 1800x1126 @24-08-2022 12:26:38.0641 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220822-182934", Target File: "/1661185787896_setUp.gif"". @22-08-2022 18:29:49.0101 PM]]>
+      <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220824-122629", Target File: "/1661336800675_setUp.gif"". @24-08-2022 12:26:41.0556 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Full screen window "<html><head></head><body></body></html>". @22-08-2022 18:29:49.0579 PM]]>
+      <![CDATA[[ReportManager] Full screen window "<html><head></head><body></body></html>". @24-08-2022 12:26:41.0969 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Window size after fullScreenWindow: (1800, 1126) @22-08-2022 18:29:49.0598 PM]]>
+      <![CDATA[[ReportManager] Window size after fullScreenWindow: (1800, 1126) @24-08-2022 12:26:41.0985 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] skipping window maximization due to unknown error, marking step as passed. @22-08-2022 18:29:49.0598 PM]]>
+      <![CDATA[[ReportManager] skipping window maximization due to unknown error, marking step as passed. @24-08-2022 12:26:41.0986 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Maximize window "New screen size is now: (1800, 1126)". @22-08-2022 18:29:52.0499 PM]]>
+      <![CDATA[[ReportManager] Maximize window "New screen size is now: (1800, 1126)". @24-08-2022 12:26:44.0235 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Target URL: "https://accept.paymob.com/portal2/en/login" @22-08-2022 18:29:52.0929 PM]]>
+      <![CDATA[[ReportManager] Target URL: "https://accept.paymob.com/portal2/en/login" @24-08-2022 12:26:44.0646 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Initial URL: "data:," @22-08-2022 18:29:53.0048 PM]]>
+      <![CDATA[[ReportManager] Initial URL: "data:," @24-08-2022 12:26:44.0681 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Navigate to url "https://accept.paymob.com/portal2/en/login". @22-08-2022 18:30:11.0999 PM]]>
+      <![CDATA[[ReportManager] Navigate to url "https://accept.paymob.com/portal2/en/login". @24-08-2022 12:27:02.0863 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - setUp" @22-08-2022 18:30:12.0064 PM]]>
+      <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - setUp" @24-08-2022 12:27:02.0904 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: setUp" @22-08-2022 18:30:12.0069 PM]]>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: setUp" @24-08-2022 12:27:02.0908 PM]]>
     </line>
     <line>
       <![CDATA[
 ################################################################################################################################################
-Starting Execution:"1 out of 2" test cases in the current suite
-Test Method:"com.paymob.gui.test.production.CreateInvoiceTest.Create_Invoice"
-Test Description:"Create Invoice"
-################################################################################################################################################]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] Expected condition failed: waiting for com.shaft.gui.element.ElementActionsHelper$$Lambda$640/0x00000008011a9ae0@717c00f9 (tried for 60 second(s) with 100 milliseconds interval) || no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[2]/header[1]/ul[1]/li[1]/a[1]/i[1]"} @22-08-2022 18:31:12.0406 PM]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220822-182934", Target File: "/1661185875126_Create_Invoice.gif"". @22-08-2022 18:31:15.0788 PM]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] Identify unique element failed "zero elements found matching this locator "By.xpath: /html[1]/body[1]/div[1]/div[2]/header[1]/ul[1]/li[1]/a[1]/i[1]".". @22-08-2022 18:31:18.0127 PM]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] Successfully created attachment "Screenshot - 1661185876059_Create_Invoice_Identify unique element_failed" @22-08-2022 18:31:18.0212 PM]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - Create_Invoice" @22-08-2022 18:31:18.0237 PM]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Create_Invoice" @22-08-2022 18:31:18.0239 PM]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] Switch to default content. @22-08-2022 18:31:18.0263 PM]]>
-    </line>
-    <line>
-      <![CDATA[
-################################################################################################################################################
-Starting Execution:"2 out of 2" test cases in the current suite
-Test Method:"com.paymob.gui.test.production.CreateInvoiceTest.Login"
+Starting Execution:"1 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.A1_SignUp_Test.Paymob_Sign_Up"
 Test Description:"Login Paymob Dashboard "
 ################################################################################################################################################]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220822-182934", Target File: "/1661185882861_Login.gif"". @22-08-2022 18:31:23.0553 PM]]>
+      <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220824-122629", Target File: "/1661336826383_Paymob_Sign_Up.gif"". @24-08-2022 12:27:06.0898 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Type "Ehabnaga". @22-08-2022 18:31:23.0940 PM]]>
+      <![CDATA[[ReportManager] Click "Sign Up". @24-08-2022 12:27:08.0227 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Type "Ehab@1212". @22-08-2022 18:31:28.0379 PM]]>
+      <![CDATA[[ReportManager] Type "01004822119". @24-08-2022 12:27:19.0462 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Click "Sign in". @22-08-2022 18:31:33.0684 PM]]>
+      <![CDATA[[ReportManager] Click "Next". @24-08-2022 12:27:22.0375 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Get text "Sign in". @22-08-2022 18:31:33.0806 PM]]>
+      <![CDATA[[ReportManager] Get text "Create your Paymob account". @24-08-2022 12:27:22.0716 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id="root"]/div[2]/div/div/div[2]/form/fieldset/legend" text contains "Sign in". @22-08-2022 18:31:46.0015 PM]]>
+      <![CDATA[[ReportManager] Get text "Create your Paymob account". @24-08-2022 12:27:22.0773 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Successfully created attachment "Screenshot - 1661185904630_Login_ValidateElementAttribute_passed" @22-08-2022 18:31:46.0047 PM]]>
+      <![CDATA[[ReportManager] Assertion Passed: The Element located by "By.xpath: //p[@class='sub-title']" text contains "Paymob account". @24-08-2022 12:27:27.0040 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - Login" @22-08-2022 18:31:46.0052 PM]]>
+      <![CDATA[[ReportManager] Successfully created attachment "Screenshot - 1661336845872_Paymob_Sign_Up_ValidateElementAttribute_passed" @24-08-2022 12:27:27.0148 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Login" @22-08-2022 18:31:46.0053 PM]]>
+      <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - Paymob_Sign_Up" @24-08-2022 12:27:27.0172 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Switch to default content. @22-08-2022 18:31:46.0113 PM]]>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Paymob_Sign_Up" @24-08-2022 12:27:27.0173 PM]]>
     </line>
     <line>
-      <![CDATA[
-################################################################################################################################################
-Starting Execution of a Configuration (Setup or Teardown) Method
-Test Method:"com.paymob.gui.test.production.CreateInvoiceTest.tearDown"
-################################################################################################################################################]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220822-182934", Target File: "/1661185908602_tearDown.gif"". @22-08-2022 18:31:49.0346 PM]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] Click "By.xpath: //i[@class='fa fa-angle-down']". @22-08-2022 18:31:49.0877 PM]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] Click "Log Out". @22-08-2022 18:31:53.0359 PM]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] Successfully created attachment "Video Recording - tearDown" @22-08-2022 18:32:14.0227 PM]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] Successfully created attachment "Selenium WebDriver Logs - browser" @22-08-2022 18:32:14.0325 PM]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] Close current window. @22-08-2022 18:32:14.0510 PM]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] Successfully created attachment "Browser Action Test Data - Close current window - Actual Value" @22-08-2022 18:32:14.0514 PM]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - tearDown" @22-08-2022 18:32:14.0516 PM]]>
-    </line>
-    <line>
-      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: tearDown" @22-08-2022 18:32:14.0517 PM]]>
+      <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:27:27.0631 PM]]>
     </line>
     <line>
       <![CDATA[
 ################################################################################################################################################
 Starting Execution of a Configuration (Setup or Teardown) Method
-Test Method:"com.shaft.tools.io.LogsHelper.teardownActivities"
+Test Method:"com.paymob.gui.test.production.C3_Preview_Main_Page_Test.setUp"
 ################################################################################################################################################]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Successfully Closed All Drivers. @22-08-2022 18:32:14.0645 PM]]>
+      <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @24-08-2022 12:27:27.0808 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Issue Summary: Total Issues = 1, New issues for Failed Tests = 1, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details. @22-08-2022 18:32:14.0653 PM]]>
+      <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @24-08-2022 12:27:27.0808 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Issues log CSV: 20220822-183214" @22-08-2022 18:32:14.0654 PM]]>
+      <![CDATA[[ReportManager] Attempting to run locally on: "Mac-64 | GoogleChrome". @24-08-2022 12:27:27.0811 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Execution log" @22-08-2022 18:32:14.0654 PM]]>
+      <![CDATA[[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @24-08-2022 12:27:27.0811 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully Opened Google Chrome. @24-08-2022 12:27:29.0164 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initial window size: (1200, 1023) @24-08-2022 12:27:29.0171 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Window size after Toolkit: (1800, 1067) @24-08-2022 12:27:29.0392 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Window size after WebDriver.Manage.Window: (1920, 1067) @24-08-2022 12:27:29.0615 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initial Windows Size: 1920x1067 @24-08-2022 12:27:29.0621 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Current Windows Size after fullScreen: 1800x1126 @24-08-2022 12:27:29.0725 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220824-122629", Target File: "/1661336851634_setUp.gif"". @24-08-2022 12:27:32.0615 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Full screen window "<html><head></head><body></body></html>". @24-08-2022 12:27:32.0900 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Window size after fullScreenWindow: (1800, 1126) @24-08-2022 12:27:32.0907 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] skipping window maximization due to unknown error, marking step as passed. @24-08-2022 12:27:32.0908 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Maximize window "New screen size is now: (1800, 1126)". @24-08-2022 12:27:35.0345 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Target URL: "https://accept.paymob.com/portal2/en/login" @24-08-2022 12:27:35.0350 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initial URL: "data:," @24-08-2022 12:27:35.0453 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Navigate to new url failed "https://accept.paymob.com/portal2/en/login". @24-08-2022 12:28:07.0753 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - setUp" @24-08-2022 12:28:07.0815 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: setUp" @24-08-2022 12:28:07.0816 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:28:07.0821 PM]]>
     </line>
     <line>
       <![CDATA[
 ################################################################################################################################################
-This test run was powered by SHAFT Engine Version: "SHAFT Engine v6.3.20220808"
-SHAFT Engine is licensed under the MIT License: [https://github.com/ShaftHQ/SHAFT_ENGINE/blob/master/LICENSE].
+Starting Execution:"2 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.C3_Preview_Main_Page_Test.Login"
+Test Description:"Login Paymob Dashboard "
 ################################################################################################################################################]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Execution log: 20220822-183214" @22-08-2022 18:32:14.0654 PM]]>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Login" @24-08-2022 12:28:07.0895 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "allure-results/cucumberReport.html"". @22-08-2022 18:32:14.0655 PM]]>
+      <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:28:07.0899 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "extent-reports/ExtentReports_22-08-2022_18-29-38-0010-PM.html"". @22-08-2022 18:32:15.0422 PM]]>
+      <![CDATA[
+################################################################################################################################################
+Starting Execution:"3 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.C3_Preview_Main_Page_Test.Preview_Main_Page_Functions"
+Test Description:"Preview Main Page Functions"
+################################################################################################################################################]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "extent-reports/ExtentReports_22-08-2022_18-29-38-0010-PM.html"". @22-08-2022 18:32:15.0423 PM]]>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Preview_Main_Page_Functions" @24-08-2022 12:28:07.0945 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "extent-reports/ExtentReports_22-08-2022_18-29-38-0010-PM.html"". @22-08-2022 18:32:15.0424 PM]]>
+      <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:28:07.0970 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] File Action "ReadFromFile" successfully performed. With the following test data "File Path: "/Users/muhammadsultan/IdeaProjects/Paymob-Accept_Dashboard/extent-reports/ExtentReports_22-08-2022_18-29-38-0010-PM.html"". @22-08-2022 18:32:15.0448 PM]]>
+      <![CDATA[
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:"com.paymob.gui.test.production.B2_Forget_Password_Test.setUp"
+################################################################################################################################################]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Successfully created attachment "HTML - Extent Emailable Execution Report" @22-08-2022 18:32:15.0457 PM]]>
+      <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @24-08-2022 12:28:08.0002 PM]]>
     </line>
     <line>
-      <![CDATA[[ReportManager] Attempting to perform the following command locally. Command: "sh generate_allure_report.sh" @22-08-2022 18:32:15.0457 PM]]>
+      <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @24-08-2022 12:28:08.0003 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Attempting to run locally on: "Mac-64 | GoogleChrome". @24-08-2022 12:28:08.0006 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @24-08-2022 12:28:08.0006 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully Opened Google Chrome. @24-08-2022 12:28:09.0465 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initial window size: (1200, 1023) @24-08-2022 12:28:09.0475 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Window size after Toolkit: (1800, 1067) @24-08-2022 12:28:09.0698 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Window size after WebDriver.Manage.Window: (1920, 1067) @24-08-2022 12:28:09.0916 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initial Windows Size: 1920x1067 @24-08-2022 12:28:09.0925 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Current Windows Size after fullScreen: 1800x1126 @24-08-2022 12:28:10.0044 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220824-122629", Target File: "/1661336891977_setUp.gif"". @24-08-2022 12:28:12.0955 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Full screen window "<html><head></head><body></body></html>". @24-08-2022 12:28:13.0245 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Window size after fullScreenWindow: (1800, 1126) @24-08-2022 12:28:13.0249 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] skipping window maximization due to unknown error, marking step as passed. @24-08-2022 12:28:13.0250 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Maximize window "New screen size is now: (1800, 1126)". @24-08-2022 12:28:15.0669 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Target URL: "https://accept.paymob.com/portal2/en/login" @24-08-2022 12:28:15.0672 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initial URL: "data:," @24-08-2022 12:28:15.0725 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Navigate to new url failed "https://accept.paymob.com/portal2/en/login". @24-08-2022 12:28:48.0254 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - setUp" @24-08-2022 12:28:48.0261 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: setUp" @24-08-2022 12:28:48.0268 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:28:48.0275 PM]]>
+    </line>
+    <line>
+      <![CDATA[
+################################################################################################################################################
+Starting Execution:"4 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.B2_Forget_Password_Test.Select_Forget_Password"
+Test Description:"Navigate Paymob Dashboard and Select Forget Password"
+################################################################################################################################################]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Select_Forget_Password" @24-08-2022 12:28:48.0326 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:28:48.0334 PM]]>
+    </line>
+    <line>
+      <![CDATA[
+################################################################################################################################################
+Starting Execution:"5 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.B2_Forget_Password_Test.Request_OTP_Password"
+Test Description:"Request OTP Password "
+################################################################################################################################################]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Request_OTP_Password" @24-08-2022 12:28:48.0342 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:28:48.0345 PM]]>
+    </line>
+    <line>
+      <![CDATA[
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:"com.paymob.gui.test.production.D4_Create_Invoice_Test.setUp"
+################################################################################################################################################]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @24-08-2022 12:28:48.0348 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @24-08-2022 12:28:48.0348 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Attempting to run locally on: "Mac-64 | GoogleChrome". @24-08-2022 12:28:48.0349 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @24-08-2022 12:28:48.0350 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully Opened Google Chrome. @24-08-2022 12:28:49.0906 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initial window size: (1200, 1023) @24-08-2022 12:28:49.0914 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Window size after Toolkit: (1800, 1067) @24-08-2022 12:28:50.0151 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Window size after WebDriver.Manage.Window: (1920, 1067) @24-08-2022 12:28:50.0378 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initial Windows Size: 1920x1067 @24-08-2022 12:28:50.0393 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Current Windows Size after fullScreen: 1800x1126 @24-08-2022 12:28:50.0549 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220824-122629", Target File: "/1661336932435_setUp.gif"". @24-08-2022 12:28:53.0446 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Full screen window "<html><head></head><body></body></html>". @24-08-2022 12:28:53.0774 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Window size after fullScreenWindow: (1800, 1126) @24-08-2022 12:28:53.0816 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] skipping window maximization due to unknown error, marking step as passed. @24-08-2022 12:28:53.0816 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Maximize window "New screen size is now: (1800, 1126)". @24-08-2022 12:28:56.0254 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Target URL: "https://accept.paymob.com/portal2/en/login" @24-08-2022 12:28:56.0259 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Initial URL: "data:," @24-08-2022 12:28:56.0334 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Navigate to new url failed "https://accept.paymob.com/portal2/en/login". @24-08-2022 12:29:29.0084 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - setUp" @24-08-2022 12:29:29.0103 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: setUp" @24-08-2022 12:29:29.0106 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:29:29.0186 PM]]>
+    </line>
+    <line>
+      <![CDATA[
+################################################################################################################################################
+Starting Execution:"6 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.D4_Create_Invoice_Test.Login"
+Test Description:"Login Paymob Dashboard "
+################################################################################################################################################]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Login" @24-08-2022 12:29:29.0498 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:29:29.0551 PM]]>
+    </line>
+    <line>
+      <![CDATA[
+################################################################################################################################################
+Starting Execution:"7 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.D4_Create_Invoice_Test.Create_Online_Card_Invoice"
+Test Description:"Create Invoice"
+################################################################################################################################################]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Create_Online_Card_Invoice" @24-08-2022 12:29:29.0640 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:29:29.0681 PM]]>
+    </line>
+    <line>
+      <![CDATA[
+################################################################################################################################################
+Starting Execution:"8 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.D4_Create_Invoice_Test.Create_Kiosk_Invoice"
+Test Description:"Create Kiosk Invoice"
+################################################################################################################################################]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Create_Kiosk_Invoice" @24-08-2022 12:29:29.0735 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:29:29.0809 PM]]>
+    </line>
+    <line>
+      <![CDATA[
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:"com.paymob.gui.test.production.A1_SignUp_Test.tearDown"
+################################################################################################################################################]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "Video Recording - tearDown" @24-08-2022 12:29:50.0077 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "Selenium WebDriver Logs - browser" @24-08-2022 12:29:50.0253 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Close current window. @24-08-2022 12:29:50.0390 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "Browser Action Test Data - Close current window - Actual Value" @24-08-2022 12:29:50.0395 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: tearDown" @24-08-2022 12:29:50.0396 PM]]>
+    </line>
+    <line>
+      <![CDATA[
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:"com.paymob.gui.test.production.B2_Forget_Password_Test.tearDown"
+################################################################################################################################################]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "Selenium WebDriver Logs - browser" @24-08-2022 12:29:50.0517 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "Selenium WebDriver Logs - driver" @24-08-2022 12:29:50.0522 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Close current window. @24-08-2022 12:29:50.0635 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "Browser Action Test Data - Close current window - Actual Value" @24-08-2022 12:29:50.0636 PM]]>
+    </line>
+    <line>
+      <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: tearDown" @24-08-2022 12:29:50.0637 PM]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-08-22T18:29:39 EET" name="Suite" finished-at="2022-08-22T18:32:14 EET" duration-ms="155229">
+  <suite started-at="2022-08-24T12:26:33 EET" name="Suite" finished-at="2022-08-24T12:29:50 EET" duration-ms="197074">
     <groups>
     </groups>
-    <test started-at="2022-08-22T18:29:39 EET" name="Paymob-Accept_Dashboard" finished-at="2022-08-22T18:32:14 EET" duration-ms="155229">
+    <test started-at="2022-08-24T12:26:33 EET" name="Paymob-Accept_Dashboard" finished-at="2022-08-24T12:29:50 EET" duration-ms="197074">
+      <class name="com.paymob.gui.test.production.A1_SignUp_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.paymob.gui.test.production.A1_SignUp_Test@28f878a0]" started-at="2022-08-24T12:26:33 EET" name="setUp" finished-at="2022-08-24T12:27:02 EET" duration-ms="29272" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @24-08-2022 12:26:33.0641 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @24-08-2022 12:26:33.0641 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Attempting to run locally on: "Mac-64 | GoogleChrome". @24-08-2022 12:26:33.0664 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @24-08-2022 12:26:33.0664 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully Opened Google Chrome. @24-08-2022 12:26:37.0779 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initial window size: (1200, 1023) @24-08-2022 12:26:37.0799 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Window size after Toolkit: (1800, 1067) @24-08-2022 12:26:38.0287 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Window size after WebDriver.Manage.Window: (1920, 1067) @24-08-2022 12:26:38.0519 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initial Windows Size: 1920x1067 @24-08-2022 12:26:38.0532 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Current Windows Size after fullScreen: 1800x1126 @24-08-2022 12:26:38.0641 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220824-122629", Target File: "/1661336800675_setUp.gif"". @24-08-2022 12:26:41.0556 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Full screen window "<html><head></head><body></body></html>". @24-08-2022 12:26:41.0969 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Window size after fullScreenWindow: (1800, 1126) @24-08-2022 12:26:41.0985 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] skipping window maximization due to unknown error, marking step as passed. @24-08-2022 12:26:41.0986 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Maximize window "New screen size is now: (1800, 1126)". @24-08-2022 12:26:44.0235 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Target URL: "https://accept.paymob.com/portal2/en/login" @24-08-2022 12:26:44.0646 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initial URL: "data:," @24-08-2022 12:26:44.0681 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Navigate to url "https://accept.paymob.com/portal2/en/login". @24-08-2022 12:27:02.0863 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - setUp" @24-08-2022 12:27:02.0904 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: setUp" @24-08-2022 12:27:02.0908 PM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Paymob_Sign_Up()[pri:0, instance:com.paymob.gui.test.production.A1_SignUp_Test@28f878a0]" started-at="2022-08-24T12:27:03 EET" name="Paymob_Sign_Up" description="Login Paymob Dashboard " finished-at="2022-08-24T12:27:27 EET" duration-ms="24068" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+################################################################################################################################################
+Starting Execution:"1 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.A1_SignUp_Test.Paymob_Sign_Up"
+Test Description:"Login Paymob Dashboard "
+################################################################################################################################################]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220824-122629", Target File: "/1661336826383_Paymob_Sign_Up.gif"". @24-08-2022 12:27:06.0898 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Click "Sign Up". @24-08-2022 12:27:08.0227 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Type "01004822119". @24-08-2022 12:27:19.0462 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Click "Next". @24-08-2022 12:27:22.0375 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Get text "Create your Paymob account". @24-08-2022 12:27:22.0716 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Get text "Create your Paymob account". @24-08-2022 12:27:22.0773 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Assertion Passed: The Element located by "By.xpath: //p[@class='sub-title']" text contains "Paymob account". @24-08-2022 12:27:27.0040 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Screenshot - 1661336845872_Paymob_Sign_Up_ValidateElementAttribute_passed" @24-08-2022 12:27:27.0148 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - Paymob_Sign_Up" @24-08-2022 12:27:27.0172 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Paymob_Sign_Up" @24-08-2022 12:27:27.0173 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:27:27.0631 PM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Paymob_Sign_Up -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.paymob.gui.test.production.A1_SignUp_Test@28f878a0]" started-at="2022-08-24T12:29:29 EET" name="tearDown" finished-at="2022-08-24T12:29:50 EET" duration-ms="20574" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Video Recording - tearDown" @24-08-2022 12:29:50.0077 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Selenium WebDriver Logs - browser" @24-08-2022 12:29:50.0253 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Close current window. @24-08-2022 12:29:50.0390 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Browser Action Test Data - Close current window - Actual Value" @24-08-2022 12:29:50.0395 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: tearDown" @24-08-2022 12:29:50.0396 PM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paymob.gui.test.production.A1_SignUp_Test -->
       <class name="com.shaft.tools.io.LogsHelper">
-        <test-method is-config="true" signature="setupActivities(org.testng.ITestContext)[pri:0, instance:com.shaft.tools.io.LogsHelper@51a8313b]" started-at="2022-08-22T18:29:37 EET" name="setupActivities" finished-at="2022-08-22T18:29:39 EET" duration-ms="1632" status="PASS">
+        <test-method is-config="true" signature="setupActivities(org.testng.ITestContext)[pri:0, instance:com.shaft.tools.io.LogsHelper@5eb2172]" started-at="2022-08-24T12:26:32 EET" name="setupActivities" finished-at="2022-08-24T12:26:33 EET" duration-ms="1364" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@313d5a87]]>
+                <![CDATA[org.testng.TestRunner@38fc2c39]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[ReportManager] Initializing Project Structure... @22-08-2022 18:29:37.0712 PM]]>
+              <![CDATA[[ReportManager] Initializing Project Structure... @24-08-2022 12:26:32.0273 PM]]>
             </line>
             <line>
-              <![CDATA[[ReportManager] Initializing Allure Reporting Environment... @22-08-2022 18:29:37.0714 PM]]>
+              <![CDATA[[ReportManager] Initializing Allure Reporting Environment... @24-08-2022 12:26:32.0275 PM]]>
             </line>
             <line>
-              <![CDATA[[ReportManager] Initializing Extent Reporting Environment... @22-08-2022 18:29:38.0008 PM]]>
+              <![CDATA[[ReportManager] Initializing Extent Reporting Environment... @24-08-2022 12:26:32.0532 PM]]>
             </line>
             <line>
-              <![CDATA[[ReportManager] Initializing Important Links... @22-08-2022 18:29:39.0179 PM]]>
+              <![CDATA[[ReportManager] Initializing Important Links... @24-08-2022 12:26:33.0492 PM]]>
             </line>
             <line>
-              <![CDATA[[ReportManager] Initializing Custom Properties... @22-08-2022 18:29:39.0215 PM]]>
+              <![CDATA[[ReportManager] Initializing Custom Properties... @24-08-2022 12:26:33.0527 PM]]>
             </line>
           </reporter-output>
         </test-method> <!-- setupActivities -->
-        <test-method is-config="true" signature="teardownActivities()[pri:0, instance:com.shaft.tools.io.LogsHelper@51a8313b]" started-at="2022-08-22T18:32:14 EET" name="teardownActivities" finished-at="2022-08-22T18:32:15 EET" duration-ms="823" status="PASS">
+        <test-method is-config="true" signature="teardownActivities()[pri:0, instance:com.shaft.tools.io.LogsHelper@5eb2172]" started-at="2022-08-24T12:29:50 EET" name="teardownActivities" finished-at="2022-08-24T12:29:50 EET" duration-ms="0" status="SKIP">
           <reporter-output>
-            <line>
-              <![CDATA[[ReportManager] Successfully Closed All Drivers. @22-08-2022 18:32:14.0645 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Issue Summary: Total Issues = 1, New issues for Failed Tests = 1, Open issues for Passed Tests = 0, Open issues for Failed Tests = 0. Kindly check the attached Issue details. @22-08-2022 18:32:14.0653 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Issues log CSV: 20220822-183214" @22-08-2022 18:32:14.0654 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Execution log" @22-08-2022 18:32:14.0654 PM]]>
-            </line>
-            <line>
-              <![CDATA[
-################################################################################################################################################
-This test run was powered by SHAFT Engine Version: "SHAFT Engine v6.3.20220808"
-SHAFT Engine is licensed under the MIT License: [https://github.com/ShaftHQ/SHAFT_ENGINE/blob/master/LICENSE].
-################################################################################################################################################]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Execution log: 20220822-183214" @22-08-2022 18:32:14.0654 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "allure-results/cucumberReport.html"". @22-08-2022 18:32:14.0655 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "extent-reports/ExtentReports_22-08-2022_18-29-38-0010-PM.html"". @22-08-2022 18:32:15.0422 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "extent-reports/ExtentReports_22-08-2022_18-29-38-0010-PM.html"". @22-08-2022 18:32:15.0423 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "extent-reports/ExtentReports_22-08-2022_18-29-38-0010-PM.html"". @22-08-2022 18:32:15.0424 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] File Action "ReadFromFile" successfully performed. With the following test data "File Path: "/Users/muhammadsultan/IdeaProjects/Paymob-Accept_Dashboard/extent-reports/ExtentReports_22-08-2022_18-29-38-0010-PM.html"". @22-08-2022 18:32:15.0448 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Successfully created attachment "HTML - Extent Emailable Execution Report" @22-08-2022 18:32:15.0457 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Attempting to perform the following command locally. Command: "sh generate_allure_report.sh" @22-08-2022 18:32:15.0457 PM]]>
-            </line>
           </reporter-output>
         </test-method> <!-- teardownActivities -->
       </class> <!-- com.shaft.tools.io.LogsHelper -->
-      <class name="com.paymob.gui.test.production.CreateInvoiceTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.paymob.gui.test.production.CreateInvoiceTest@6c575325]" started-at="2022-08-22T18:29:39 EET" name="setUp" finished-at="2022-08-22T18:30:12 EET" duration-ms="32711" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @22-08-2022 18:29:39.0359 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @22-08-2022 18:29:39.0360 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Attempting to run locally on: "Mac-64 | GoogleChrome". @22-08-2022 18:29:39.0388 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @22-08-2022 18:29:39.0388 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Successfully Opened Google Chrome. @22-08-2022 18:29:44.0591 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Initial window size: (1200, 1023) @22-08-2022 18:29:44.0612 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Window size after Toolkit: (1800, 1067) @22-08-2022 18:29:45.0120 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Window size after WebDriver.Manage.Window: (1920, 1067) @22-08-2022 18:29:45.0350 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Initial Windows Size: 1920x1067 @22-08-2022 18:29:45.0367 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Current Windows Size after fullScreen: 1800x1126 @22-08-2022 18:29:45.0446 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220822-182934", Target File: "/1661185787896_setUp.gif"". @22-08-2022 18:29:49.0101 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Full screen window "<html><head></head><body></body></html>". @22-08-2022 18:29:49.0579 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Window size after fullScreenWindow: (1800, 1126) @22-08-2022 18:29:49.0598 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] skipping window maximization due to unknown error, marking step as passed. @22-08-2022 18:29:49.0598 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Maximize window "New screen size is now: (1800, 1126)". @22-08-2022 18:29:52.0499 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Target URL: "https://accept.paymob.com/portal2/en/login" @22-08-2022 18:29:52.0929 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Initial URL: "data:," @22-08-2022 18:29:53.0048 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Navigate to url "https://accept.paymob.com/portal2/en/login". @22-08-2022 18:30:11.0999 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - setUp" @22-08-2022 18:30:12.0064 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: setUp" @22-08-2022 18:30:12.0069 PM]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Create_Invoice()[pri:0, instance:com.paymob.gui.test.production.CreateInvoiceTest@6c575325]" started-at="2022-08-22T18:30:12 EET" name="Create_Invoice" description="Create Invoice" finished-at="2022-08-22T18:31:18 EET" duration-ms="66078" status="FAIL">
+      <class name="com.paymob.gui.test.production.D4_Create_Invoice_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.paymob.gui.test.production.D4_Create_Invoice_Test@3c46dcbe]" started-at="2022-08-24T12:28:48 EET" name="setUp" finished-at="2022-08-24T12:29:29 EET" duration-ms="40746" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Identify unique element failed "zero elements found matching this locator "By.xpath: /html[1]/body[1]/div[1]/div[2]/header[1]/ul[1]/li[1]/a[1]/i[1]".".]]>
+              <![CDATA[Navigate to new url failed "https://accept.paymob.com/portal2/en/login".]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Identify unique element failed "zero elements found matching this locator "By.xpath: /html[1]/body[1]/div[1]/div[2]/header[1]/ul[1]/li[1]/a[1]/i[1]".".
-at org.testng.Assert.fail(Assert.java:110)
-at com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1488)
-at com.shaft.gui.element.WebDriverElementActions.failAction(WebDriverElementActions.java:1317)
-at com.shaft.gui.element.WebDriverElementActions.identifyUniqueElement(WebDriverElementActions.java:1559)
-at com.shaft.gui.element.WebDriverElementActions.identifyUniqueElement(WebDriverElementActions.java:1333)
-at com.shaft.gui.element.WebDriverElementActions.click(WebDriverElementActions.java:128)
-at com.shaft.gui.element.ElementActions.click(ElementActions.java:46)
-at com.shaft.gui.element.ElementActions.click(ElementActions.java:659)
-at com.paymob.gui.pages.D4_MainPage.Create_Invoice(D4_MainPage.java:66)
-at com.paymob.gui.test.production.CreateInvoiceTest.Create_Invoice(CreateInvoiceTest.java:44)
+              <![CDATA[java.lang.AssertionError: Navigate to new url failed "https://accept.paymob.com/portal2/en/login".
+at org.testng.Assert.fail(Assert.java:98)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:521)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:514)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:575)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:261)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:164)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:722)
+at com.paymob.gui.test.production.D4_Create_Invoice_Test.setUp(D4_Create_Invoice_Test.java:21)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:806)
 at org.testng.TestRunner.run(TestRunner.java:601)
@@ -439,6 +700,163 @@ at org.testng.TestNG.runSuites(TestNG.java:1099)
 at org.testng.TestNG.run(TestNG.java:1067)
 at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.247
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Muhammads-MacBook-Pro.local', ip: 'fe80:0:0:0:c09:fbd8:7c8d:eb8a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.5', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [461570bc8241d8971e347f0dacbac30b, get {url=https://accept.paymob.com/portal2/en/login}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/v9/hknmfz2x34s...}, goog:chromeOptions: {debuggerAddress: localhost:62457}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62457/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 461570bc8241d8971e347f0dacbac30b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1056)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:573)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @24-08-2022 12:28:48.0348 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @24-08-2022 12:28:48.0348 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Attempting to run locally on: "Mac-64 | GoogleChrome". @24-08-2022 12:28:48.0349 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @24-08-2022 12:28:48.0350 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully Opened Google Chrome. @24-08-2022 12:28:49.0906 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initial window size: (1200, 1023) @24-08-2022 12:28:49.0914 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Window size after Toolkit: (1800, 1067) @24-08-2022 12:28:50.0151 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Window size after WebDriver.Manage.Window: (1920, 1067) @24-08-2022 12:28:50.0378 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initial Windows Size: 1920x1067 @24-08-2022 12:28:50.0393 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Current Windows Size after fullScreen: 1800x1126 @24-08-2022 12:28:50.0549 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220824-122629", Target File: "/1661336932435_setUp.gif"". @24-08-2022 12:28:53.0446 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Full screen window "<html><head></head><body></body></html>". @24-08-2022 12:28:53.0774 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Window size after fullScreenWindow: (1800, 1126) @24-08-2022 12:28:53.0816 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] skipping window maximization due to unknown error, marking step as passed. @24-08-2022 12:28:53.0816 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Maximize window "New screen size is now: (1800, 1126)". @24-08-2022 12:28:56.0254 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Target URL: "https://accept.paymob.com/portal2/en/login" @24-08-2022 12:28:56.0259 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initial URL: "data:," @24-08-2022 12:28:56.0334 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Navigate to new url failed "https://accept.paymob.com/portal2/en/login". @24-08-2022 12:29:29.0084 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - setUp" @24-08-2022 12:29:29.0103 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: setUp" @24-08-2022 12:29:29.0106 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:29:29.0186 PM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login()[pri:0, instance:com.paymob.gui.test.production.D4_Create_Invoice_Test@3c46dcbe]" started-at="2022-08-24T12:29:29 EET" name="Login" description="Login Paymob Dashboard " finished-at="2022-08-24T12:29:29 EET" duration-ms="1" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Navigate to new url failed "https://accept.paymob.com/portal2/en/login".]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Navigate to new url failed "https://accept.paymob.com/portal2/en/login".
+at org.testng.Assert.fail(Assert.java:98)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:521)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:514)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:575)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:261)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:164)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:722)
+at com.paymob.gui.test.production.D4_Create_Invoice_Test.setUp(D4_Create_Invoice_Test.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.247
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Muhammads-MacBook-Pro.local', ip: 'fe80:0:0:0:c09:fbd8:7c8d:eb8a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.5', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [461570bc8241d8971e347f0dacbac30b, get {url=https://accept.paymob.com/portal2/en/login}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/v9/hknmfz2x34s...}, goog:chromeOptions: {debuggerAddress: localhost:62457}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62457/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 461570bc8241d8971e347f0dacbac30b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1056)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:573)
+... 29 more
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -446,108 +864,875 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
             <line>
               <![CDATA[
 ################################################################################################################################################
-Starting Execution:"1 out of 2" test cases in the current suite
-Test Method:"com.paymob.gui.test.production.CreateInvoiceTest.Create_Invoice"
-Test Description:"Create Invoice"
-################################################################################################################################################]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Expected condition failed: waiting for com.shaft.gui.element.ElementActionsHelper$$Lambda$640/0x00000008011a9ae0@717c00f9 (tried for 60 second(s) with 100 milliseconds interval) || no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[2]/header[1]/ul[1]/li[1]/a[1]/i[1]"} @22-08-2022 18:31:12.0406 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220822-182934", Target File: "/1661185875126_Create_Invoice.gif"". @22-08-2022 18:31:15.0788 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Identify unique element failed "zero elements found matching this locator "By.xpath: /html[1]/body[1]/div[1]/div[2]/header[1]/ul[1]/li[1]/a[1]/i[1]".". @22-08-2022 18:31:18.0127 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Successfully created attachment "Screenshot - 1661185876059_Create_Invoice_Identify unique element_failed" @22-08-2022 18:31:18.0212 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - Create_Invoice" @22-08-2022 18:31:18.0237 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Create_Invoice" @22-08-2022 18:31:18.0239 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Switch to default content. @22-08-2022 18:31:18.0263 PM]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Create_Invoice -->
-        <test-method signature="Login()[pri:0, instance:com.paymob.gui.test.production.CreateInvoiceTest@6c575325]" started-at="2022-08-22T18:31:18 EET" name="Login" description="Login Paymob Dashboard " finished-at="2022-08-22T18:31:46 EET" duration-ms="27491" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[
-################################################################################################################################################
-Starting Execution:"2 out of 2" test cases in the current suite
-Test Method:"com.paymob.gui.test.production.CreateInvoiceTest.Login"
+Starting Execution:"6 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.D4_Create_Invoice_Test.Login"
 Test Description:"Login Paymob Dashboard "
 ################################################################################################################################################]]>
             </line>
             <line>
-              <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220822-182934", Target File: "/1661185882861_Login.gif"". @22-08-2022 18:31:23.0553 PM]]>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Login" @24-08-2022 12:29:29.0498 PM]]>
             </line>
             <line>
-              <![CDATA[[ReportManager] Type "Ehabnaga". @22-08-2022 18:31:23.0940 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Type "Ehab@1212". @22-08-2022 18:31:28.0379 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Click "Sign in". @22-08-2022 18:31:33.0684 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Get text "Sign in". @22-08-2022 18:31:33.0806 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id="root"]/div[2]/div/div/div[2]/form/fieldset/legend" text contains "Sign in". @22-08-2022 18:31:46.0015 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Successfully created attachment "Screenshot - 1661185904630_Login_ValidateElementAttribute_passed" @22-08-2022 18:31:46.0047 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - Login" @22-08-2022 18:31:46.0052 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Login" @22-08-2022 18:31:46.0053 PM]]>
-            </line>
-            <line>
-              <![CDATA[[ReportManager] Switch to default content. @22-08-2022 18:31:46.0113 PM]]>
+              <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:29:29.0551 PM]]>
             </line>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.paymob.gui.test.production.CreateInvoiceTest@6c575325]" started-at="2022-08-22T18:31:46 EET" name="tearDown" finished-at="2022-08-22T18:32:14 EET" duration-ms="28391" status="PASS">
+        <test-method signature="Create_Online_Card_Invoice()[pri:1, instance:com.paymob.gui.test.production.D4_Create_Invoice_Test@3c46dcbe]" started-at="2022-08-24T12:29:29 EET" name="Create_Online_Card_Invoice" description="Create Invoice" finished-at="2022-08-24T12:29:29 EET" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Navigate to new url failed "https://accept.paymob.com/portal2/en/login".]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Navigate to new url failed "https://accept.paymob.com/portal2/en/login".
+at org.testng.Assert.fail(Assert.java:98)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:521)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:514)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:575)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:261)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:164)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:722)
+at com.paymob.gui.test.production.D4_Create_Invoice_Test.setUp(D4_Create_Invoice_Test.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.247
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Muhammads-MacBook-Pro.local', ip: 'fe80:0:0:0:c09:fbd8:7c8d:eb8a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.5', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [461570bc8241d8971e347f0dacbac30b, get {url=https://accept.paymob.com/portal2/en/login}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/v9/hknmfz2x34s...}, goog:chromeOptions: {debuggerAddress: localhost:62457}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62457/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 461570bc8241d8971e347f0dacbac30b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1056)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:573)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220822-182934", Target File: "/1661185908602_tearDown.gif"". @22-08-2022 18:31:49.0346 PM]]>
+              <![CDATA[
+################################################################################################################################################
+Starting Execution:"7 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.D4_Create_Invoice_Test.Create_Online_Card_Invoice"
+Test Description:"Create Invoice"
+################################################################################################################################################]]>
             </line>
             <line>
-              <![CDATA[[ReportManager] Click "By.xpath: //i[@class='fa fa-angle-down']". @22-08-2022 18:31:49.0877 PM]]>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Create_Online_Card_Invoice" @24-08-2022 12:29:29.0640 PM]]>
             </line>
             <line>
-              <![CDATA[[ReportManager] Click "Log Out". @22-08-2022 18:31:53.0359 PM]]>
+              <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:29:29.0681 PM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Create_Online_Card_Invoice -->
+        <test-method signature="Create_Kiosk_Invoice()[pri:2, instance:com.paymob.gui.test.production.D4_Create_Invoice_Test@3c46dcbe]" started-at="2022-08-24T12:29:29 EET" name="Create_Kiosk_Invoice" description="Create Kiosk Invoice" finished-at="2022-08-24T12:29:29 EET" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Navigate to new url failed "https://accept.paymob.com/portal2/en/login".]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Navigate to new url failed "https://accept.paymob.com/portal2/en/login".
+at org.testng.Assert.fail(Assert.java:98)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:521)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:514)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:575)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:261)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:164)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:722)
+at com.paymob.gui.test.production.D4_Create_Invoice_Test.setUp(D4_Create_Invoice_Test.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.247
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Muhammads-MacBook-Pro.local', ip: 'fe80:0:0:0:c09:fbd8:7c8d:eb8a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.5', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [461570bc8241d8971e347f0dacbac30b, get {url=https://accept.paymob.com/portal2/en/login}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/v9/hknmfz2x34s...}, goog:chromeOptions: {debuggerAddress: localhost:62457}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62457/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 461570bc8241d8971e347f0dacbac30b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1056)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:573)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[
+################################################################################################################################################
+Starting Execution:"8 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.D4_Create_Invoice_Test.Create_Kiosk_Invoice"
+Test Description:"Create Kiosk Invoice"
+################################################################################################################################################]]>
             </line>
             <line>
-              <![CDATA[[ReportManager] Successfully created attachment "Video Recording - tearDown" @22-08-2022 18:32:14.0227 PM]]>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Create_Kiosk_Invoice" @24-08-2022 12:29:29.0735 PM]]>
             </line>
             <line>
-              <![CDATA[[ReportManager] Successfully created attachment "Selenium WebDriver Logs - browser" @22-08-2022 18:32:14.0325 PM]]>
+              <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:29:29.0809 PM]]>
             </line>
             <line>
-              <![CDATA[[ReportManager] Close current window. @22-08-2022 18:32:14.0510 PM]]>
+              <![CDATA[
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:"com.paymob.gui.test.production.A1_SignUp_Test.tearDown"
+################################################################################################################################################]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Create_Kiosk_Invoice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.paymob.gui.test.production.D4_Create_Invoice_Test@3c46dcbe]" started-at="2022-08-24T12:29:50 EET" name="tearDown" finished-at="2022-08-24T12:29:50 EET" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paymob.gui.test.production.D4_Create_Invoice_Test -->
+      <class name="com.paymob.gui.test.production.C3_Preview_Main_Page_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.paymob.gui.test.production.C3_Preview_Main_Page_Test@b0e5507]" started-at="2022-08-24T12:27:27 EET" name="setUp" finished-at="2022-08-24T12:28:07 EET" duration-ms="39952" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Navigate to new url failed "https://accept.paymob.com/portal2/en/login".]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Navigate to new url failed "https://accept.paymob.com/portal2/en/login".
+at org.testng.Assert.fail(Assert.java:98)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:521)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:514)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:575)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:261)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:164)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:722)
+at com.paymob.gui.test.production.C3_Preview_Main_Page_Test.setUp(C3_Preview_Main_Page_Test.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 25.057
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Muhammads-MacBook-Pro.local', ip: 'fe80:0:0:0:c09:fbd8:7c8d:eb8a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.5', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc8ea5a5fb26e614ea1937b082ea60e4, get {url=https://accept.paymob.com/portal2/en/login}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/v9/hknmfz2x34s...}, goog:chromeOptions: {debuggerAddress: localhost:61983}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61983/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc8ea5a5fb26e614ea1937b082ea60e4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1056)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:573)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @24-08-2022 12:27:27.0808 PM]]>
             </line>
             <line>
-              <![CDATA[[ReportManager] Successfully created attachment "Browser Action Test Data - Close current window - Actual Value" @22-08-2022 18:32:14.0514 PM]]>
+              <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @24-08-2022 12:27:27.0808 PM]]>
             </line>
             <line>
-              <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - tearDown" @22-08-2022 18:32:14.0516 PM]]>
+              <![CDATA[[ReportManager] Attempting to run locally on: "Mac-64 | GoogleChrome". @24-08-2022 12:27:27.0811 PM]]>
             </line>
             <line>
-              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: tearDown" @22-08-2022 18:32:14.0517 PM]]>
+              <![CDATA[[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @24-08-2022 12:27:27.0811 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully Opened Google Chrome. @24-08-2022 12:27:29.0164 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initial window size: (1200, 1023) @24-08-2022 12:27:29.0171 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Window size after Toolkit: (1800, 1067) @24-08-2022 12:27:29.0392 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Window size after WebDriver.Manage.Window: (1920, 1067) @24-08-2022 12:27:29.0615 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initial Windows Size: 1920x1067 @24-08-2022 12:27:29.0621 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Current Windows Size after fullScreen: 1800x1126 @24-08-2022 12:27:29.0725 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220824-122629", Target File: "/1661336851634_setUp.gif"". @24-08-2022 12:27:32.0615 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Full screen window "<html><head></head><body></body></html>". @24-08-2022 12:27:32.0900 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Window size after fullScreenWindow: (1800, 1126) @24-08-2022 12:27:32.0907 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] skipping window maximization due to unknown error, marking step as passed. @24-08-2022 12:27:32.0908 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Maximize window "New screen size is now: (1800, 1126)". @24-08-2022 12:27:35.0345 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Target URL: "https://accept.paymob.com/portal2/en/login" @24-08-2022 12:27:35.0350 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initial URL: "data:," @24-08-2022 12:27:35.0453 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Navigate to new url failed "https://accept.paymob.com/portal2/en/login". @24-08-2022 12:28:07.0753 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - setUp" @24-08-2022 12:28:07.0815 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: setUp" @24-08-2022 12:28:07.0816 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:28:07.0821 PM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login()[pri:0, instance:com.paymob.gui.test.production.C3_Preview_Main_Page_Test@b0e5507]" started-at="2022-08-24T12:28:07 EET" name="Login" description="Login Paymob Dashboard " finished-at="2022-08-24T12:28:07 EET" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Navigate to new url failed "https://accept.paymob.com/portal2/en/login".]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Navigate to new url failed "https://accept.paymob.com/portal2/en/login".
+at org.testng.Assert.fail(Assert.java:98)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:521)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:514)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:575)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:261)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:164)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:722)
+at com.paymob.gui.test.production.C3_Preview_Main_Page_Test.setUp(C3_Preview_Main_Page_Test.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 25.057
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Muhammads-MacBook-Pro.local', ip: 'fe80:0:0:0:c09:fbd8:7c8d:eb8a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.5', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc8ea5a5fb26e614ea1937b082ea60e4, get {url=https://accept.paymob.com/portal2/en/login}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/v9/hknmfz2x34s...}, goog:chromeOptions: {debuggerAddress: localhost:61983}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61983/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc8ea5a5fb26e614ea1937b082ea60e4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1056)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:573)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[
+################################################################################################################################################
+Starting Execution:"2 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.C3_Preview_Main_Page_Test.Login"
+Test Description:"Login Paymob Dashboard "
+################################################################################################################################################]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Login" @24-08-2022 12:28:07.0895 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:28:07.0899 PM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Preview_Main_Page_Functions()[pri:0, instance:com.paymob.gui.test.production.C3_Preview_Main_Page_Test@b0e5507]" started-at="2022-08-24T12:28:07 EET" name="Preview_Main_Page_Functions" description="Preview Main Page Functions" finished-at="2022-08-24T12:28:07 EET" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Navigate to new url failed "https://accept.paymob.com/portal2/en/login".]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Navigate to new url failed "https://accept.paymob.com/portal2/en/login".
+at org.testng.Assert.fail(Assert.java:98)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:521)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:514)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:575)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:261)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:164)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:722)
+at com.paymob.gui.test.production.C3_Preview_Main_Page_Test.setUp(C3_Preview_Main_Page_Test.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 25.057
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Muhammads-MacBook-Pro.local', ip: 'fe80:0:0:0:c09:fbd8:7c8d:eb8a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.5', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc8ea5a5fb26e614ea1937b082ea60e4, get {url=https://accept.paymob.com/portal2/en/login}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/v9/hknmfz2x34s...}, goog:chromeOptions: {debuggerAddress: localhost:61983}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:61983/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc8ea5a5fb26e614ea1937b082ea60e4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1056)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:573)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[
+################################################################################################################################################
+Starting Execution:"3 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.C3_Preview_Main_Page_Test.Preview_Main_Page_Functions"
+Test Description:"Preview Main Page Functions"
+################################################################################################################################################]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Preview_Main_Page_Functions" @24-08-2022 12:28:07.0945 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:28:07.0970 PM]]>
+            </line>
+            <line>
+              <![CDATA[
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:"com.paymob.gui.test.production.B2_Forget_Password_Test.setUp"
+################################################################################################################################################]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Preview_Main_Page_Functions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.paymob.gui.test.production.C3_Preview_Main_Page_Test@b0e5507]" started-at="2022-08-24T12:29:50 EET" name="tearDown" finished-at="2022-08-24T12:29:50 EET" duration-ms="4" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.paymob.gui.pages.D4_MainPage.Paymob_Log_out()" because "this.MainPage_Obj" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.paymob.gui.pages.D4_MainPage.Paymob_Log_out()" because "this.MainPage_Obj" is null
+at com.paymob.gui.test.production.C3_Preview_Main_Page_Test.tearDown(C3_Preview_Main_Page_Test.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:643)
+at org.testng.TestRunner.afterRun(TestRunner.java:891)
+at org.testng.TestRunner.run(TestRunner.java:604)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paymob.gui.test.production.C3_Preview_Main_Page_Test -->
+      <class name="com.paymob.gui.test.production.B2_Forget_Password_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.paymob.gui.test.production.B2_Forget_Password_Test@6bbe50c9]" started-at="2022-08-24T12:28:07 EET" name="setUp" finished-at="2022-08-24T12:28:48 EET" duration-ms="40267" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Navigate to new url failed "https://accept.paymob.com/portal2/en/login".]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Navigate to new url failed "https://accept.paymob.com/portal2/en/login".
+at org.testng.Assert.fail(Assert.java:98)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:521)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:514)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:575)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:261)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:164)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:722)
+at com.paymob.gui.test.production.B2_Forget_Password_Test.setUp(B2_Forget_Password_Test.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.379
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Muhammads-MacBook-Pro.local', ip: 'fe80:0:0:0:c09:fbd8:7c8d:eb8a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.5', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f79bd17d245a4dea14ae69087d38f4c9, get {url=https://accept.paymob.com/portal2/en/login}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/v9/hknmfz2x34s...}, goog:chromeOptions: {debuggerAddress: localhost:62212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62212/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f79bd17d245a4dea14ae69087d38f4c9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1056)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:573)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/downloadedFiles/"". @24-08-2022 12:28:08.0002 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/target/downloadedFiles/"". @24-08-2022 12:28:08.0003 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Attempting to run locally on: "Mac-64 | GoogleChrome". @24-08-2022 12:28:08.0006 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time... @24-08-2022 12:28:08.0006 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully Opened Google Chrome. @24-08-2022 12:28:09.0465 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initial window size: (1200, 1023) @24-08-2022 12:28:09.0475 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Window size after Toolkit: (1800, 1067) @24-08-2022 12:28:09.0698 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Window size after WebDriver.Manage.Window: (1920, 1067) @24-08-2022 12:28:09.0916 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initial Windows Size: 1920x1067 @24-08-2022 12:28:09.0925 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Current Windows Size after fullScreen: 1800x1126 @24-08-2022 12:28:10.0044 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] File Action "CreateFile" successfully performed. With the following test data "Target Folder: "allure-results//screenshots/20220824-122629", Target File: "/1661336891977_setUp.gif"". @24-08-2022 12:28:12.0955 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Full screen window "<html><head></head><body></body></html>". @24-08-2022 12:28:13.0245 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Window size after fullScreenWindow: (1800, 1126) @24-08-2022 12:28:13.0249 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] skipping window maximization due to unknown error, marking step as passed. @24-08-2022 12:28:13.0250 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Maximize window "New screen size is now: (1800, 1126)". @24-08-2022 12:28:15.0669 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Target URL: "https://accept.paymob.com/portal2/en/login" @24-08-2022 12:28:15.0672 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Initial URL: "data:," @24-08-2022 12:28:15.0725 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Navigate to new url failed "https://accept.paymob.com/portal2/en/login". @24-08-2022 12:28:48.0254 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Animated Gif - setUp" @24-08-2022 12:28:48.0261 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: setUp" @24-08-2022 12:28:48.0268 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:28:48.0275 PM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Select_Forget_Password()[pri:0, instance:com.paymob.gui.test.production.B2_Forget_Password_Test@6bbe50c9]" started-at="2022-08-24T12:28:48 EET" name="Select_Forget_Password" description="Navigate Paymob Dashboard and Select Forget Password" finished-at="2022-08-24T12:28:48 EET" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Navigate to new url failed "https://accept.paymob.com/portal2/en/login".]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Navigate to new url failed "https://accept.paymob.com/portal2/en/login".
+at org.testng.Assert.fail(Assert.java:98)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:521)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:514)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:575)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:261)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:164)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:722)
+at com.paymob.gui.test.production.B2_Forget_Password_Test.setUp(B2_Forget_Password_Test.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.379
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Muhammads-MacBook-Pro.local', ip: 'fe80:0:0:0:c09:fbd8:7c8d:eb8a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.5', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f79bd17d245a4dea14ae69087d38f4c9, get {url=https://accept.paymob.com/portal2/en/login}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/v9/hknmfz2x34s...}, goog:chromeOptions: {debuggerAddress: localhost:62212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62212/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f79bd17d245a4dea14ae69087d38f4c9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1056)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:573)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[
+################################################################################################################################################
+Starting Execution:"4 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.B2_Forget_Password_Test.Select_Forget_Password"
+Test Description:"Navigate Paymob Dashboard and Select Forget Password"
+################################################################################################################################################]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Select_Forget_Password" @24-08-2022 12:28:48.0326 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:28:48.0334 PM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Select_Forget_Password -->
+        <test-method signature="Request_OTP_Password()[pri:1, instance:com.paymob.gui.test.production.B2_Forget_Password_Test@6bbe50c9]" started-at="2022-08-24T12:28:48 EET" name="Request_OTP_Password" description="Request OTP Password " finished-at="2022-08-24T12:28:48 EET" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Navigate to new url failed "https://accept.paymob.com/portal2/en/login".]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Navigate to new url failed "https://accept.paymob.com/portal2/en/login".
+at org.testng.Assert.fail(Assert.java:98)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:521)
+at com.shaft.gui.browser.WebDriverBrowserActions.failAction(WebDriverBrowserActions.java:514)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:575)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:261)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:164)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToURL(WebDriverBrowserActions.java:722)
+at com.paymob.gui.test.production.B2_Forget_Password_Test.setUp(B2_Forget_Password_Test.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+Caused by: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 28.379
+  (Session info: chrome=104.0.5112.101)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Muhammads-MacBook-Pro.local', ip: 'fe80:0:0:0:c09:fbd8:7c8d:eb8a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.5', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f79bd17d245a4dea14ae69087d38f4c9, get {url=https://accept.paymob.com/portal2/en/login}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/v9/hknmfz2x34s...}, goog:chromeOptions: {debuggerAddress: localhost:62212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:62212/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 30000, script: 30000}, unhandledPromptBehavior: accept and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f79bd17d245a4dea14ae69087d38f4c9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1056)
+at com.shaft.gui.browser.WebDriverBrowserActions.navigateToNewURL(WebDriverBrowserActions.java:573)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[
+################################################################################################################################################
+Starting Execution:"5 out of 8" test cases in the current suite
+Test Method:"com.paymob.gui.test.production.B2_Forget_Password_Test.Request_OTP_Password"
+Test Description:"Request OTP Password "
+################################################################################################################################################]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: Request_OTP_Password" @24-08-2022 12:28:48.0342 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Switch to default content. @24-08-2022 12:28:48.0345 PM]]>
+            </line>
+            <line>
+              <![CDATA[
+################################################################################################################################################
+Starting Execution of a Configuration (Setup or Teardown) Method
+Test Method:"com.paymob.gui.test.production.D4_Create_Invoice_Test.setUp"
+################################################################################################################################################]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Request_OTP_Password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.paymob.gui.test.production.B2_Forget_Password_Test@6bbe50c9]" started-at="2022-08-24T12:29:50 EET" name="tearDown" finished-at="2022-08-24T12:29:50 EET" duration-ms="239" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Selenium WebDriver Logs - browser" @24-08-2022 12:29:50.0517 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Selenium WebDriver Logs - driver" @24-08-2022 12:29:50.0522 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Close current window. @24-08-2022 12:29:50.0635 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "Browser Action Test Data - Close current window - Actual Value" @24-08-2022 12:29:50.0636 PM]]>
+            </line>
+            <line>
+              <![CDATA[[ReportManager] Successfully created attachment "SHAFT Engine Logs - Current Method log: tearDown" @24-08-2022 12:29:50.0637 PM]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.paymob.gui.test.production.CreateInvoiceTest -->
+      </class> <!-- com.paymob.gui.test.production.B2_Forget_Password_Test -->
     </test> <!-- Paymob-Accept_Dashboard -->
   </suite> <!-- Suite -->
 </testng-results>

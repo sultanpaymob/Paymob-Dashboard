@@ -1,0 +1,4 @@
+[ReportManager] Successfully created attachment "Video Recording - tearDown" @24-08-2022 12:29:50.0077 PM
+[ReportManager] Successfully created attachment "Selenium WebDriver Logs - browser" @24-08-2022 12:29:50.0253 PM
+[ReportManager] Close current window. @24-08-2022 12:29:50.0390 PM
+[ReportManager] Successfully created attachment "Browser Action Test Data - Close current window - Actual Value" @24-08-2022 12:29:50.0395 P

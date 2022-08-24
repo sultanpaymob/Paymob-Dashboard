@@ -1,0 +1,7 @@
+[2022-08-24T10:26:53.883Z] [WARNING] https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C8OTFD5CSQN3SGB7JA2G&lib=ttq 2:80910 "Cannot assign to read only property 'call' of object '#\u003CObject>'"
+[2022-08-24T10:26:54.412Z] [WARNING] https://connect.facebook.net/en_US/fbevents.js 23:36775 "[Meta Pixel] - Duplicate Pixel ID: 1742342899352163."
+[2022-08-24T10:26:54.549Z] [SEVERE] https://accept.paymob.com/portal2/en/login - Mixed Content: The page at 'https://accept.paymob.com/portal2/en/login' was loaded over HTTPS, but requested an insecure font 'http://accept.paymob.com/portal2/'. This request has been blocked; the content must be served over HTTPS.
+[2022-08-24T10:26:58.551Z] [SEVERE] https://s3.amazonaws.com/webengage-files/webengage/~99198a56/v4.js?r=27688946 - Failed to load resource: the server responded with a status of 403 (Forbidden)
+[2022-08-24T10:27:01.909Z] [SEVERE] https://accept.paymob.com/portal2/manifest.json 0 Manifest: Line: 1, column: 1, Syntax error.
+[2022-08-24T10:27:18.797Z] [WARNING] https://www.google-analytics.com/analytics_debug.js 30:358 "Running analytics_debug.js. This script is intended for testing and debugging only."
+[2022-08-24T10:27:18.797Z] [WARNING] https://www.google-analytics.com/analytics_debug.js 30:358 "Tracking script already loaded. Abandoning initialization."

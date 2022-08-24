@@ -1,0 +1,6 @@
+
+################################################################################################################################################
+Starting Execution:	"5 out of 8" test cases in the current suite
+Test Method:		"com.paymob.gui.test.production.B2_Forget_Password_Test.Request_OTP_Password"
+Test Description:	"Request OTP Password "
+###############################################################################################################################################

@@ -1,0 +1,6 @@
+
+################################################################################################################################################
+Starting Execution:	"2 out of 8" test cases in the current suite
+Test Method:		"com.paymob.gui.test.production.C3_Preview_Main_Page_Test.Login"
+Test Description:	"Login Paymob Dashboard "
+###############################################################################################################################################
