@@ -1,4 +1,0 @@
-[ReportManager] Successfully created attachment "Selenium WebDriver Logs - browser" @24-08-2022 12:29:50.0517 PM
-[ReportManager] Successfully created attachment "Selenium WebDriver Logs - driver" @24-08-2022 12:29:50.0522 PM
-[ReportManager] Close current window. @24-08-2022 12:29:50.0635 PM
-[ReportManager] Successfully created attachment "Browser Action Test Data - Close current window - Actual Value" @24-08-2022 12:29:50.0636 P

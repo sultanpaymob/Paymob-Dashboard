@@ -1,6 +1,0 @@
-
-################################################################################################################################################
-Starting Execution:	"3 out of 8" test cases in the current suite
-Test Method:		"com.paymob.gui.test.production.C3_Preview_Main_Page_Test.Preview_Main_Page_Functions"
-Test Description:	"Preview Main Page Functions"
-###############################################################################################################################################
