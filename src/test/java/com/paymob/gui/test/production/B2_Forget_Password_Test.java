@@ -1,4 +1,4 @@
-package com.paymob.gui.tests.staging;
+package com.paymob.gui.test.production;
 
 import com.paymob.gui.pages.A1_LoginPage;
 import com.paymob.gui.pages.C3_ForgetPasswordPage;
@@ -8,7 +8,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class ForgetPasswordTest {
+public class B2_Forget_Password_Test {
     private SHAFT.GUI.WebDriver driver;
     A1_LoginPage LoginPage_Obj;
     C3_ForgetPasswordPage ForgetPasswordPage_Obj;
@@ -16,7 +16,7 @@ public class ForgetPasswordTest {
     @BeforeClass
     public void setUp() {
         driver = new SHAFT.GUI.WebDriver();
-        driver.browser().navigateToURL("https://acceptstagingtest.paymobsolutions.com/portal2/en/login");
+        driver.browser().navigateToURL("https://accept.paymob.com/portal2/en/login");
         LoginPage_Obj = new A1_LoginPage(driver);
         ForgetPasswordPage_Obj = new C3_ForgetPasswordPage(driver);}
 

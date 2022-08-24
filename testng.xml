@@ -3,38 +3,51 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/Users/muhammadsultan/IdeaProjects/Paymob-Accept_Dashboard/src/test">
         <classes>
-            <class name="com.paymob.gui.test.production.ForgetPasswordTest">
-            <methods>
-                <include name="Select_Forget_Password"/>
-                <include name="Request_OTP_Password"/>
-            </methods>
-            </class>
-            <class name="com.paymob.gui.test.production.MainPageTest">
-                <methods>
-                    <include name="Login"/>
-                    <include name="Preview_Main_Page_Functions"/>
-                </methods>
-            </class>
-            <class name="com.paymob.gui.test.production.SignUpTest">
+            <class name="com.paymob.gui.test.production.A1_SignUp_Test">
                 <methods>
                     <include name="Paymob_Sign_Up"/>
                 </methods>
             </class>
-            <class name="com.paymob.gui.tests.staging.ForgetPasswordTest">
+            <class name="com.paymob.gui.test.production.B2_Forget_Password_Test">
                 <methods>
                     <include name="Select_Forget_Password"/>
                     <include name="Request_OTP_Password"/>
                 </methods>
             </class>
-            <class name="com.paymob.gui.tests.staging.MainPageTest">
+            <class name="com.paymob.gui.test.production.C3_Preview_Main_Page_Test">
                 <methods>
                     <include name="Login"/>
                     <include name="Preview_Main_Page_Functions"/>
                 </methods>
             </class>
-            <class name="com.paymob.gui.tests.staging.SignUpTest">
+            <class name="com.paymob.gui.test.production.D4_Create_Invoice_Test">
+                <methods>
+                    <include name="Login"/>
+                    <include name="Create_Online_Card_Invoice"/>
+                    <include name="Create_Kiosk_Invoice"/>
+                </methods>
+            </class>
+            <class name="com.paymob.gui.tests.staging.A1_SignUp_Test">
                 <methods>
                     <include name="Paymob_Sign_Up"/>
+                </methods>
+            </class>
+            <class name="com.paymob.gui.tests.staging.B2_Forget_Password_Test">
+                <methods>
+                    <include name="Select_Forget_Password"/>
+                    <include name="Request_OTP_Password"/>
+                </methods>
+            </class>
+            <class name="com.paymob.gui.tests.staging.C3_Preview_Main_Page_Test">
+                <methods>
+                    <include name="Login"/>
+                    <include name="Preview_Main_Page_Functions"/>
+                </methods>
+            </class>
+            <class name="com.paymob.gui.tests.staging.D4_Create_Invoice_Test">
+                <methods>
+                    <include name="Login"/>
+                    <include name="Create_Online_Card_Invoice/>
                 </methods>
             </class>
         </classes>

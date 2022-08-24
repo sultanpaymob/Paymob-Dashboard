@@ -8,7 +8,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class SignUpTest {
+public class A1_SignUp_Test {
     private SHAFT.GUI.WebDriver driver;
     A1_LoginPage LoginPage_Obj;
     B2_SignUpPage SignUpPage_Obj;
