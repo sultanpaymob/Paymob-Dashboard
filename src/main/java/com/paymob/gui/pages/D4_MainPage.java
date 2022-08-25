@@ -8,7 +8,8 @@ public class D4_MainPage {
     public By Paymob_Logo = By.xpath("//img[@alt='Accept Logo' and @class='navbar-brand-minimized']");
     public By Create_Btn = By.cssSelector(".createShortcutBtn > span");
     public By Create_Invoice_Btn = By.cssSelector(".createShortcutLink:nth-child(1) img");
-    public By Create_Product_Btn = By.xpath("//img[@src='/portal2/static/media/Product.dcbaf80a.svg']");
+    public By Create_Product_Btn = By.cssSelector("img[src='/portal2/static/media/Product.dcbaf80a.svg']");
+
     public By View_All_Btn = By.xpath("//a[@class='blockLink']");
     public By Home_Btn = By.xpath("//a[normalize-space()='Home']");
     public By Payments_Btn = By.xpath("//a[normalize-space()='Payments']");
